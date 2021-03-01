@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="/style.css">
     <meta name="description" content="Pomodoro Timer">
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="center">
         <h1>Pomodoro Timer</h1>
     </header>
-      <main>
-          <div class="center stack-lg">
-            <img src="./pomodoro.jpg" alt="Pomodoro timer" /> 
-          <div><time>00:00</time></div>
-          <form action="/" method="get">
-            <label for="work">Work time</label>
-            <input id="work" type="text" />
-            <label for="break">Break time</label>
-            <input id="break" type="text" />
-            <button class="start" type="submit">Submit</button>
-            <button class="start" id="pause" type="button">Pause</button>
-            <button class="cancel" type="reset">Cancel</button>
-          </form>
-          </div>
-      </main>
+    <main>
+        <div class="center stack">
+            <img src="./pomodoro.jpg" alt="Pomodoro timer" />
+            <div><time>00:00</time></div>
+            <form class="stack" action="/" method="get">
+                <label for="work">Work time</label>
+                <input id="work" type="text" placeholder="0" size="2" />
+                <label for="break">Break time</label>
+                <input id="break" type="text" placeholder="0" size="2" />
+                <div class="stack-small">
+                    <button class="start" type="submit">Submit</button>
+                    <button class="start" id="pause" type="button">Pause</button>
+                    <button class="cancel" type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="/script.js"></script>
-  </body>
+</body>
+
 </html>
