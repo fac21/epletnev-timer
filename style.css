@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    color: darkred;
+    background-image: linear-gradient(to right, rgb(255, 200, 0), rgb(255, 0, 0));
+    /* background-image: linear-gradient(to right, rgb(0, 255, 251), rgb(0, 255, 98)); */
+}
+
+h1 {
+  
+}
+
+time {
+  font-size: 3em;
+  
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stack-lg > * + * {
+    margin-top: 2rem;
+  }
+
+  img {
+   max-width: 13em; 
+   opacity: 0.8;
+   border-radius: 30%;
+  }
+
