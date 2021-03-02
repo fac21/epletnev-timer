@@ -1,6 +1,6 @@
 # **Precourse 4 week: Pomodoro Timer Project** #
 
-![Image of Pomodoro Timer](https://user-images.githubusercontent.com/57327617/109687698-69229500-7b7b-11eb-9b24-5e244c4a50d7.png)
+<img width="1222" alt="Screenshot 2021-02-26 at 19 06 49" src="https://user-images.githubusercontent.com/57327617/109687698-69229500-7b7b-11eb-9b24-5e244c4a50d7.png">
 
 :satisfied:This week's project: a “Pomodoro timer”. This is a productivity tool that helps you time alternating periods of working and resting.:satisfied:
 
