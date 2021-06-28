@@ -21,7 +21,7 @@ Stretch goals
 1. How to get user input and pass it to start timer function with one button onClick
 1. How to switch from work to break and back to work continiously
 1. How to change background colour for break/work
-1. How to play alarm sound 
+1. How to play alarm sound. 
 
 ### _Resources used:_ ###
 :books::books:
